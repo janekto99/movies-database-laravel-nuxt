@@ -1,0 +1,47 @@
+version: '3.9'
+
+services:
+  laravel:
+    build:
+      context: ../laravel
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../laravel:/var/www/laravel
+      - /var/www/laravel/vendor
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: laravel
+    volumes:
+      - ./data:/var/lib/mysql
+
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    restart: always
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: password
+
+  nuxt:
+    build:
+      context: ../nuxt
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../nuxt:/var/www/nuxt
+      - /var/www/nuxt/node_modules
+    tmpfs: /tmp
