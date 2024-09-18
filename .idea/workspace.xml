@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afeedfa4-7b05-4f00-b252-aa85e381decf" name="Changes" comment="Added images to README.md">
+    <list default="true" id="afeedfa4-7b05-4f00-b252-aa85e381decf" name="Changes" comment=".env.example - updated file for docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/storage/app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,18 +159,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Tomáš/projects/movies-database-laravel-nuxt/laravel/storage/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tomáš\projects\movies-database-laravel-nuxt\laravel\storage\app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/laravel/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -195,7 +201,7 @@
       <updated>1726676117493</updated>
       <workItem from="1726676118971" duration="97000" />
       <workItem from="1726676228451" duration="974000" />
-      <workItem from="1726679294607" duration="32000" />
+      <workItem from="1726679294607" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="Added images to README.md">
       <option name="closed" value="true" />
@@ -213,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726676595911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".env.example - updated file for docker">
+      <option name="closed" value="true" />
+      <created>1726679618488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679618488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +235,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added images to README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added images to README.md" />
+    <MESSAGE value=".env.example - updated file for docker" />
+    <option name="LAST_COMMIT_MESSAGE" value=".env.example - updated file for docker" />
   </component>
 </project>
