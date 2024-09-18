@@ -78,3 +78,7 @@ docker-compose exec laravel sh -c "cp .env.example .env && php artisan key:gener
 # Create symlink and seed database
 docker-compose exec laravel sh -c "php artisan storage:link && php artisan migrate && php artisan db:seed"
 ```
+
+### NUXT - http://localhost:3000/
+### LARAVEL - http://localhost:8000/
+### PHPMYADMIN - http://localhost:8080/
